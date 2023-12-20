@@ -1,0 +1,3407 @@
+body {
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: linear-gradient(297deg, rgb(253, 253, 253) 0%, white 100%);
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (min-width:1150px) {
+  #LOGO {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #FBSIGNIN {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 6%;
+    width: 87%;
+    height: 40px;
+    padding: 2px;
+    border: 2px solid rgba(0, 0, 0, 0.39);
+    border-radius: 15px;
+    font-weight: bold;
+  }
+
+  #FBSIGNIN:hover {
+    border: 2px solid black;
+  }
+
+  #FBSIGNINTEXT {
+    position: relative;
+    right: 5%;
+  }
+
+  #FB {
+    position: relative;
+    right: 15%;
+  }
+
+  #GOOGLESIGNIN {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    left: 6%;
+    width: 87%;
+    height: 40px;
+    padding: 2px;
+    border: 2px solid rgba(0, 0, 0, 0.39);
+    border-radius: 15px;
+    font-weight: bold;
+    z-index: 1;
+  }
+
+  #GOOGLESIGNIN:hover {
+    border: 2px solid black;
+  }
+
+  #GOOGLESIGNINTEXT {
+    position: relative;
+    right: 5%;
+  }
+
+  #GOOGLE {
+    position: relative;
+    right: 18%;
+  }
+
+  #OR {
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  hr {
+    width: 35%;
+  }
+
+  #ModalBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 660px;
+  }
+
+
+  #ModalCont {
+    background: #fff;
+    width: 400px;
+    height: 630px;
+    border-radius: 30px;
+    border: 1px solid lightgrey;
+  }
+
+  form {
+    position: relative;
+    bottom: 20px;
+  }
+
+  #EMAILORUSERNAME {
+    text-align: center;
+  }
+
+  #SEVENTHPASSWORD {
+    text-align: center;
+  }
+
+  #SIGNINBUTTON {
+    position: relative;
+    top: 200px;
+    text-align: center;
+  }
+
+  #SixthInput {
+    position: relative;
+    top: 100px;
+  }
+
+  #SeventhInput {
+    position: relative;
+    top: 150px;
+  }
+
+
+  label {
+    position: relative;
+    left: 6%;
+  }
+
+  #EmailOrUsernamelabel {
+    font-weight: bold;
+  }
+
+  #seventhpasswordlabel {
+    font-weight: bold;
+  }
+
+  #Emailorusername {
+    position: relative;
+    top: 10px;
+    outline: none;
+    width: 87%;
+    height: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.39);
+    border-radius: 12px;
+  }
+
+  #Emailorusername:focus {
+    border-color: black;
+  }
+
+  #Emailorusername:hover {
+    border-color: black;
+  }
+
+  #LostPSWText {
+    cursor: pointer;
+    position: relative;
+    left: 37%;
+  }
+
+  #LostPSWText:hover {
+    text-decoration: underline;
+  }
+
+  #SeventhPassword {
+    position: relative;
+    top: 10px;
+    outline: none;
+    width: 87%;
+    height: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.39);
+    border-radius: 12px;
+  }
+
+  #SeventhPassword:focus {
+    border-color: black;
+  }
+
+  #SeventhPassword:hover {
+    border-color: black;
+  }
+
+  #SignInButton {
+    cursor: pointer;
+    background: rgb(255, 21, 110);
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    border-radius: 12px;
+    width: 89%;
+    height: 50px;
+  }
+
+  #SignInButton:hover {
+    border: 2px solid black;
+  }
+
+
+
+
+
+
+
+  #SignInLink {
+    color: #fff;
+    cursor: pointer;
+  }
+
+  #SignInLink:hover {
+    text-decoration: underline;
+  }
+
+  #RegisterLink {
+    font-weight: bold;
+    color: rgb(255, 21, 110);
+    cursor: pointer;
+  }
+
+  #RegisterLink:hover {
+    text-decoration: underline;
+  }
+
+  #SignIn {
+    position: relative;
+    color: #fff;
+  }
+
+  #Register {
+    position: relative;
+    top: 30%;
+    left: 6%;
+    color: black;
+  }
+
+
+
+  #Elilipse {
+    transform: rotate(-10deg);
+    position: fixed;
+    right: 75%;
+    top: -900px;
+    border-radius: 800px;
+    border: 153px solid rgba(208, 182, 182, 0.20);
+    width: 866px;
+    height: 866px;
+    flex-shrink: 0;
+  }
+
+  #Elilipse2 {
+    position: fixed;
+    left: 55%;
+    top: 300px;
+    border-radius: 800px;
+    border: 153px solid rgba(208, 182, 182, 0.20);
+    width: 866px;
+    height: 866px;
+    flex-shrink: 0;
+  }
+
+  #Nothing {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+  }
+
+  #TopBar {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    width: 100%;
+  }
+
+  #RightTopFix {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 25px;
+  }
+
+  .TopSideBarIcon {
+    display: none;
+  }
+
+  #TopSideBarSlider {
+    display: none;
+  }
+
+
+  #SideBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 35px;
+    position: fixed;
+    top: 74px;
+    height: 400px;
+    width: 65px;
+    background: #062963;
+    box-shadow: 12px 4px 10px 2px rgba(6, 41, 99, 0.10);
+    z-index: 1;
+  }
+
+
+  #SideBar2 {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 35px;
+    position: fixed;
+    top: 74px;
+    left: 70px;
+    height: 400px;
+    width: 228px;
+    background: #062963;
+    box-shadow: 12px 4px 10px 2px rgba(6, 41, 99, 0.10);
+    z-index: 1;
+    animation-name: SlideOut;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+
+  #SideBarSlider {
+    display: none;
+  }
+
+  @keyframes SlideOut {
+    0% {
+      z-index: -1;
+      left: -25%;
+    }
+
+    50% {
+      z-index: 1;
+      left: 5%;
+    }
+  }
+
+  .SideBarIcon2 {
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+    width: 65%;
+    border: 2px solid #062963;
+  }
+
+  .SideBarIcon {
+    cursor: pointer;
+    width: 35%;
+  }
+
+  .SideBarIcon:hover {
+    box-shadow: 10px 5px 0px rgba(0, 0, 0, 0.493);
+  }
+
+  .SideBarIcon2:hover {
+    border: 2px solid white;
+  }
+
+  #SideBarDivider {
+    width: 97%;
+  }
+
+  #SideBarDivider2 {
+    position: relative;
+    bottom: 9.9px;
+    width: 99%;
+  }
+
+  #Profile {
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+  }
+
+  .ProfilePic {
+    width: 30%;
+  }
+
+  #ProfileExtras {
+    font-size: small;
+    color: black;
+  }
+
+  .SideBarText1 {
+    cursor: pointer;
+    position: relative;
+    bottom: 10px;
+  }
+
+  .SideBarText1:hover {
+    color: rgba(255, 255, 255, 0.5);
+    box-shadow: -50px 0 0 white;
+  }
+
+  .SideBarText2 {
+    cursor: pointer;
+    position: relative;
+    bottom: 6px;
+  }
+
+  .SideBarText2:hover {
+    color: rgba(255, 255, 255, 0.5);
+    box-shadow: -50px 0 0 white;
+  }
+
+  .SideBarText3 {
+    cursor: pointer;
+    position: relative;
+    bottom: 6px;
+  }
+
+  .SideBarText3:hover {
+    color: rgba(255, 255, 255, 0.5);
+    box-shadow: -50px 0 0 white;
+  }
+
+  .SideBarText4 {
+    cursor: pointer;
+  }
+
+  .SideBarText4:hover {
+    color: rgba(255, 255, 255, 0.5);
+    box-shadow: -50px 0 0 white;
+  }
+
+  .SideBarText5 {
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+  }
+
+  .SideBarText5:hover {
+    color: rgba(255, 255, 255, 0.5);
+    box-shadow: -50px 0 0 white;
+  }
+
+  #FindGofer {
+    position: relative;
+    left: 3%;
+    width: 10%;
+  }
+
+  #Loca {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  #Loca:hover {
+    text-decoration: underline;
+  }
+
+
+  #Serve {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  #Serve:hover {
+    text-decoration: underline;
+  }
+
+  #SignUpBut {
+    cursor: pointer;
+    width: 90px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #062963;
+    background: #06265F;
+  }
+
+
+  #SignUpBut:hover {
+    color: #06265F;
+    background: white;
+  }
+
+
+
+  #SignInBut {
+    cursor: pointer;
+    width: 90px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #062963;
+    background: #06265F;
+  }
+
+  #SignInBut:hover {
+    color: #06265F;
+    background: white;
+  }
+
+  #TopBarSec2 {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 25px;
+  }
+
+  #Loca2 {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  #Loca2:hover {
+    text-decoration: underline;
+  }
+
+
+  #Serve2 {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  #Serve2:hover {
+    text-decoration: underline;
+  }
+
+  #Account {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  #Account:hover {
+    text-decoration: underline;
+  }
+
+  #Frames {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+  }
+
+  #Frame1 {
+    background: url('./images/two-young-professional-cleaners-uniform-working-together-kitchen-caucasian-men-using-steam-cleaner-happy-afro-american-173029776\ 1.png') 0 0 no-repeat rgba(0, 0, 0, 0.50);
+    background-size: cover;
+    height: 640px;
+    width: 100%;
+  }
+
+  #Frame1Modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.651);
+    background-size: contain;
+    height: 640px;
+    width: 100%;
+  }
+
+  #Frame1ModalCont {
+    width: 600px;
+    height: 280px;
+    border-radius: 40px;
+    border: 5px solid #062963;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  #Frame1MainText {
+    display: flex;
+    justify-content: center;
+    color: #062963;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  #Frame1Form {
+    display: flex;
+    align-items: center;
+  }
+
+  #Frame1Input {
+    color: #06265F;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    left: 5%;
+    border-radius: 12px;
+    border: 2px solid #062963;
+    background: url('./images/SearchFrame.png') 25px 10px no-repeat rgba(217, 217, 217, 0.00);
+    height: 20px;
+    width: 46%;
+    padding: 15px;
+    padding-left: 80px;
+  }
+
+  #Frame1Input:hover {
+    border: 2px solid #062a634f;
+  }
+
+
+  #Frame1Form ::placeholder {
+    color: #06265F;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  #GetHelpBut {
+    cursor: pointer;
+    position: relative;
+    left: 8%;
+    width: 20%;
+    text-align: center;
+    color: #fff;
+    padding: 17px;
+    border-radius: 10px;
+    background: #06265F;
+    border: 2px solid #06265F;
+  }
+
+  #GetHelpBut:hover {
+    color: #06265F;
+    background: white;
+  }
+
+  #Frame1More {
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+  }
+
+  #F1More1 {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+    color: #06265F;
+    width: 18%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+  #F1More1:hover {
+    color: white;
+    background: #06265F;
+  }
+
+
+  #F1More2 {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+    color: #06265F;
+    width: 17%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+  #F1More2:hover {
+    color: white;
+    background: #06265F;
+  }
+
+  #F1More3 {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+    color: #06265F;
+    width: 17%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+  #F1More3:hover {
+    color: white;
+    background: #06265F;
+  }
+
+
+  #F1More4 {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+    color: #06265F;
+    width: 17%;
+    padding: 10px;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+  #Frame2 {
+    height: 750px;
+    width: 100%;
+  }
+
+  #Frame2MainText {
+    position: relative;
+    left: 3%;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #Frame2Cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+    position: relative;
+  }
+
+  #F2Card1 {
+    cursor: pointer;
+    width: 325px;
+    height: 300px;
+    border-radius: 10px;
+    background: #FFF url('./images/istockphoto-1005938982-612x612\ 1.png') 0 0 no-repeat;
+    background-size: contain;
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.25), 7px -2px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  #F2Card1:hover {
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.712), 7px -2px 4px 0px rgba(0, 0, 0, 0.712);
+  }
+
+  #F2Card2 {
+    cursor: pointer;
+    width: 325px;
+    height: 300px;
+    border-radius: 10px;
+    background: #FFF url('./images/TV\ Mounting\ 23-636308-edited\ 1.png') 0 0 no-repeat;
+    background-size: contain;
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.25), 7px -2px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  #F2Card2:hover {
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.712), 7px -2px 4px 0px rgba(0, 0, 0, 0.712);
+  }
+
+
+  #F2Card3 {
+    cursor: pointer;
+    width: 325px;
+    height: 300px;
+    border-radius: 10px;
+    background: #FFF url('./images/Cleaner-wiping-down-baseboards-during-home-cleaning-service\ 1.png') 0 0 no-repeat;
+    background-size: contain;
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.25), 7px -2px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+
+
+  #F2Card3:hover {
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.712), 7px -2px 4px 0px rgba(0, 0, 0, 0.712);
+  }
+
+
+  #F2Card4 {
+    cursor: pointer;
+    width: 325px;
+    height: 300px;
+    border-radius: 10px;
+    background: #FFF url('./images/service_other_handyman_service\ 1.png') 0 0 no-repeat;
+    background-size: contain;
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.25), 7px -2px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+
+  #F2Card4:hover {
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.712), 7px -2px 4px 0px rgba(0, 0, 0, 0.712);
+  }
+
+
+
+  #F2Card5 {
+    cursor: pointer;
+    width: 325px;
+    height: 300px;
+    border-radius: 10px;
+    background: #FFF url('./images/hanging_img-7ef860782e6ceac45cba539ce96088fdfcd229a340905f2f45c5f66518d7f4f3\ 1.png') 0 0 no-repeat;
+    background-size: contain;
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.25), 7px -2px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+
+  #F2Card5:hover {
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.712), 7px -2px 4px 0px rgba(0, 0, 0, 0.712);
+  }
+
+
+  #F2Card6 {
+    cursor: pointer;
+    width: 325px;
+    height: 300px;
+    border-radius: 10px;
+    background: #FFF url('./images/service_other_plumbing\ 1.png') 0 0 no-repeat;
+    background-size: contain;
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.25), 7px -2px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  #F2Card6:hover {
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.712), 7px -2px 4px 0px rgba(0, 0, 0, 0.712);
+  }
+
+  #F2Card1Text {
+    position: relative;
+    top: 220px;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+  }
+
+  #F2Card1Text2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 220px;
+    font-size: small;
+    font-weight: 600;
+  }
+
+  #TagImg {
+    position: relative;
+    right: 5%;
+    width: 5%;
+  }
+
+  #NairaImg {
+    width: 25%;
+  }
+
+  #Frame3 {
+    width: 100%;
+    height: 500px;
+    background: url('./images/tasker1-desktop\ 1.png') 100% 0 no-repeat #D5C8B8;
+    background-size: contain;
+  }
+
+  #Frame3Cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 38%;
+    height: 500px;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  #F3Text1 {
+    font-weight: bold;
+    font-size: large;
+  }
+
+  #F3Text2 {
+    max-width: 45ch;
+  }
+
+  #CheckImg {
+    position: relative;
+    right: 6%;
+    width: 3.5%;
+  }
+
+  #Frame4 {
+    width: 100%;
+    height: 600px;
+    background: #06265F;
+  }
+
+  #F4Cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    column-gap: 150px;
+  }
+
+  #F4Text1 {
+    color: #FFFCFC;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  #F4Text2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  #F4Text2a {
+    width: 40%;
+  }
+
+  #F4Text2b {
+    color: #FFF;
+    font-size: small;
+    font-weight: 500;
+    max-width: 25ch;
+  }
+
+  #F4Text2c {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: small;
+    white-space: nowrap;
+    text-align: center;
+    color: #06265F;
+    width: 28%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: #FFF;
+  }
+
+  #F4Text2c:hover {
+    color: white;
+    border: 2px solid white;
+    background: #06265F;
+  }
+
+  #F4Text4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  #F4Text4a {
+    width: 40%;
+  }
+
+  #F4Text4b {
+    color: #FFF;
+    font-size: small;
+    font-weight: 500;
+    max-width: 25ch;
+  }
+
+  #F4Text4c {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: small;
+    white-space: nowrap;
+    text-align: center;
+    color: #06265F;
+    width: 28%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: #FFF;
+  }
+
+  #F4Text4c:hover {
+    color: white;
+    border: 2px solid white;
+    background: #06265F;
+  }
+
+  #F4Divider {
+    background-color: #FFF;
+    transform: rotate(180deg);
+    height: 300px;
+  }
+
+  #Frame5 {
+    width: 100%;
+    height: 600px;
+  }
+
+  #Frame5MainText {
+    position: relative;
+    left: 3%;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #Frame5Form {
+    position: relative;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #Frame5Input {
+    color: #06265F;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 12px;
+    border: 2px solid #062963;
+    background: url('./images/LocationFrame.png') 25px 10px no-repeat rgba(217, 217, 217, 0.00);
+    height: 15px;
+    width: 20%;
+    padding: 15px;
+    padding-left: 80px;
+  }
+
+
+  #Frame5Input:hover {
+    border: 2px solid #062a6342;
+  }
+
+  #CheckAvail {
+    cursor: pointer;
+    position: relative;
+    left: 1%;
+    width: 10%;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: #06265F;
+  }
+
+
+
+  #CheckAvail:hover {
+    color: #06265F;
+    background: white;
+  }
+
+  #Frame5Form ::placeholder {
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+
+  #Frame5MainText2 {
+    position: relative;
+    top: 60px;
+    left: 3%;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #Frame5MoreMain {
+    position: relative;
+    top: 80px;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  #Frame5More {
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+  }
+
+  #F5More1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 12%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+  #F5More1:hover {
+    color: white;
+    background: #06265F;
+  }
+
+  #F5More2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 12%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+  #F5More2:hover {
+    color: white;
+    background: #06265F;
+  }
+
+  #F5More3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+  #F5More3:hover {
+    color: white;
+    background: #06265F;
+  }
+
+
+  #F5More4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 17%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+  #F5More4:hover {
+    color: white;
+    background: #06265F;
+  }
+
+  #F5More5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+  #F5More5:hover {
+    color: white;
+    background: #06265F;
+  }
+
+  #F5More6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 17%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+
+  #F5More6:hover {
+    color: white;
+    background: #06265F;
+  }
+
+  #F5More7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 12%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+
+  #F5More7:hover {
+    color: white;
+    background: #06265F;
+  }
+
+
+  #F5More8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 17%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+
+  #F5More8:hover {
+    color: white;
+    background: #06265F;
+  }
+
+  #F5More9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 12%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+
+  #F5More9:hover {
+    color: white;
+    background: #06265F;
+  }
+
+
+
+
+  #F5More10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+
+  #F5More10:hover {
+    color: white;
+    background: #06265F;
+  }
+
+  #F5More11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 12%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+
+
+  #F5More11:hover {
+    color: white;
+    background: #06265F;
+  }
+
+
+  #F5More12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 12%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+
+
+  #F5More12:hover {
+    color: white;
+    background: #06265F;
+  }
+
+
+  #Frame6 {
+    font-family: 'Josefin Sans', sans-serif;
+    background: #F8F9FD;
+    width: 100%;
+    height: 530px;
+  }
+
+  #Frame6Cont {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  #FollowUs {
+    position: relative;
+    left: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #FFF;
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: #062963;
+  }
+
+
+  #FollowUs:hover {
+    box-shadow: 0 0 10px black;
+  }
+
+  #FollowUsImg {
+    width: 15%;
+  }
+
+  #Frame6Divider {
+    position: relative;
+    top: 60px;
+    border: 0px solid #FFF;
+    background-color: #FFF;
+    width: 100%;
+    height: 5px;
+  }
+
+  #F6MainCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 120px;
+    width: 100%;
+    height: 400px;
+  }
+
+  #F6Cont2Header {
+    font-weight: lighter;
+    font-size: 40px;
+  }
+
+  #F6ContBody {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  #Frame6Cont3 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #F6Cont2Header2 {
+    font-weight: lighter;
+    font-size: 20px;
+  }
+
+  #F6ContBody2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .SocialIcon {
+    cursor: pointer;
+    width: 15%;
+  }
+
+  #F6FinalMainCont {
+    position: relative;
+    left: 3%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #F6FinalCont1 {
+    display: flex;
+    column-gap: 20px;
+  }
+
+  #F6FinalCont2 {
+    width: 62%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 25px;
+  }
+
+  #FinalF6BoldText {
+    font-weight: bold;
+  }
+
+
+}
+
+
+@media only screen and (max-width:1150px) {
+
+  #LOGO {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #FBSIGNIN {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 6%;
+    width: 87%;
+    height: 40px;
+    padding: 2px;
+    border: 2px solid rgba(0, 0, 0, 0.39);
+    border-radius: 15px;
+    font-weight: bold;
+  }
+
+  #FBSIGNIN:hover {
+    border: 2px solid black;
+  }
+
+  #FBSIGNINTEXT {
+    position: relative;
+    right: 5%;
+  }
+
+  #FB {
+    position: relative;
+    right: 15%;
+  }
+
+  #GOOGLESIGNIN {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    left: 6%;
+    width: 87%;
+    height: 40px;
+    padding: 2px;
+    border: 2px solid rgba(0, 0, 0, 0.39);
+    border-radius: 15px;
+    font-weight: bold;
+    z-index: 1;
+  }
+
+  #GOOGLESIGNIN:hover {
+    border: 2px solid black;
+  }
+
+  #GOOGLESIGNINTEXT {
+    position: relative;
+    right: 5%;
+  }
+
+  #GOOGLE {
+    position: relative;
+    right: 18%;
+  }
+
+  #OR {
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  hr {
+    width: 35%;
+  }
+
+  #ModalBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 660px;
+  }
+
+
+  #ModalCont {
+    background: #fff;
+    width: 400px;
+    height: 630px;
+    border-radius: 30px;
+    border: 1px solid lightgrey;
+  }
+
+  form {
+    position: relative;
+    bottom: 20px;
+  }
+
+  #EMAILORUSERNAME {
+    text-align: center;
+  }
+
+  #SEVENTHPASSWORD {
+    text-align: center;
+  }
+
+  #SIGNINBUTTON {
+    position: relative;
+    top: 200px;
+    text-align: center;
+  }
+
+  #SixthInput {
+    position: relative;
+    top: 100px;
+  }
+
+  #SeventhInput {
+    position: relative;
+    top: 150px;
+  }
+
+
+  label {
+    position: relative;
+    left: 6%;
+  }
+
+  #EmailOrUsernamelabel {
+    font-weight: bold;
+  }
+
+  #seventhpasswordlabel {
+    font-weight: bold;
+  }
+
+  #Emailorusername {
+    position: relative;
+    top: 10px;
+    outline: none;
+    width: 87%;
+    height: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.39);
+    border-radius: 12px;
+  }
+
+  #Emailorusername:focus {
+    border-color: black;
+  }
+
+  #Emailorusername:hover {
+    border-color: black;
+  }
+
+  #LostPSWText {
+    cursor: pointer;
+    position: relative;
+    left: 37%;
+  }
+
+  #LostPSWText:hover {
+    text-decoration: underline;
+  }
+
+  #SeventhPassword {
+    position: relative;
+    top: 10px;
+    outline: none;
+    width: 87%;
+    height: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.39);
+    border-radius: 12px;
+  }
+
+  #SeventhPassword:focus {
+    border-color: black;
+  }
+
+  #SeventhPassword:hover {
+    border-color: black;
+  }
+
+  #SignInButton {
+    cursor: pointer;
+    background: rgb(255, 21, 110);
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    border-radius: 12px;
+    width: 89%;
+    height: 50px;
+  }
+
+  #SignInButton:hover {
+    border: 2px solid black;
+  }
+
+
+
+
+
+
+
+  #SignInLink {
+    color: #fff;
+    cursor: pointer;
+  }
+
+  #SignInLink:hover {
+    text-decoration: underline;
+  }
+
+  #RegisterLink {
+    font-weight: bold;
+    color: rgb(255, 21, 110);
+    cursor: pointer;
+  }
+
+  #RegisterLink:hover {
+    text-decoration: underline;
+  }
+
+  #SignIn {
+    position: relative;
+    color: #fff;
+  }
+
+  #Register {
+    position: relative;
+    top: 30%;
+    left: 6%;
+    color: black;
+  }
+
+
+
+  #Elilipse {
+    transform: rotate(-10deg);
+    position: fixed;
+    right: 75%;
+    top: -900px;
+    border-radius: 800px;
+    border: 153px solid rgba(208, 182, 182, 0.20);
+    width: 866px;
+    height: 866px;
+    flex-shrink: 0;
+  }
+
+  #Elilipse2 {
+    position: fixed;
+    left: 55%;
+    top: 300px;
+    border-radius: 800px;
+    border: 153px solid rgba(208, 182, 182, 0.20);
+    width: 866px;
+    height: 866px;
+    flex-shrink: 0;
+  }
+
+  #Nothing {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+  }
+
+  #TopBar {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    width: 100%;
+  }
+
+  #RightTopFix {
+    position: relative;
+    right: 3%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 25px;
+  }
+
+  #TopSideBarMain {
+    position: relative;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 1;
+  }
+
+  .TopSideBarIcon {
+    display: none;
+    cursor: pointer;
+    width: 15%;
+  }
+
+  .TopSideBarIcon2 {
+    position: fixed;
+    top: 30px;
+    right: 7.2%;
+    cursor: pointer;
+    width: 5%;
+    border-radius: 2px;
+    border: 2px solid white;
+  }
+
+
+  #TopSideBar2 {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 35px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.541);
+    box-shadow: 12px 4px 10px 2px rgba(6, 41, 99, 0.10);
+    z-index: 1;
+    animation-name: TopSlideOut;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+
+  #TopSideBarSlider {
+    display: none;
+  }
+
+  @keyframes TopSlideOut {
+    0% {
+      z-index: -1;
+      left: -55%;
+    }
+
+    50% {
+      z-index: 1;
+      left: 0%;
+    }
+  }
+
+  #SideBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 35px;
+    position: fixed;
+    top: 74px;
+    height: 400px;
+    width: 65px;
+    background: #062963;
+    box-shadow: 12px 4px 10px 2px rgba(6, 41, 99, 0.10);
+    z-index: 1;
+  }
+
+
+  #SideBar2 {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 35px;
+    position: fixed;
+    top: 74px;
+    left: 70px;
+    height: 400px;
+    width: 228px;
+    background: #062963;
+    box-shadow: 12px 4px 10px 2px rgba(6, 41, 99, 0.10);
+    z-index: 1;
+    animation-name: SlideOut;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+
+  #SideBarSlider {
+    display: none;
+  }
+
+  @keyframes SlideOut {
+    0% {
+      z-index: -1;
+      left: -25%;
+    }
+
+    50% {
+      z-index: 1;
+      left: 5%;
+    }
+  }
+
+  .SideBarIcon2 {
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+    width: 65%;
+    border: 2px solid #062963;
+  }
+
+  .SideBarIcon {
+    cursor: pointer;
+    width: 35%;
+  }
+
+  .SideBarIcon:hover {
+    box-shadow: 10px 5px 0px rgba(0, 0, 0, 0.493);
+  }
+
+  .SideBarIcon2:hover {
+    border: 2px solid white;
+  }
+
+  #SideBarDivider {
+    width: 97%;
+  }
+
+  #SideBarDivider2 {
+    position: relative;
+    bottom: 12px;
+    width: 99%;
+  }
+
+  #Profile {
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+  }
+
+  .ProfilePic {
+    width: 30%;
+  }
+
+  #ProfileExtras {
+    font-size: small;
+    color: black;
+  }
+
+  .SideBarText1 {
+    cursor: pointer;
+    position: relative;
+    bottom: 10px;
+  }
+
+  .SideBarText1:hover {
+    color: rgba(255, 255, 255, 0.5);
+    box-shadow: -50px 0 0 white;
+  }
+
+  .SideBarText2 {
+    cursor: pointer;
+    position: relative;
+    bottom: 6px;
+  }
+
+  .SideBarText2:hover {
+    color: rgba(255, 255, 255, 0.5);
+    box-shadow: -50px 0 0 white;
+  }
+
+  .SideBarText3 {
+    cursor: pointer;
+    position: relative;
+    bottom: 6px;
+  }
+
+  .SideBarText3:hover {
+    color: rgba(255, 255, 255, 0.5);
+    box-shadow: -50px 0 0 white;
+  }
+
+  .SideBarText4 {
+    cursor: pointer;
+  }
+
+  .SideBarText4:hover {
+    color: rgba(255, 255, 255, 0.5);
+    box-shadow: -50px 0 0 white;
+  }
+
+  .SideBarText5 {
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+  }
+
+  .SideBarText5:hover {
+    color: rgba(255, 255, 255, 0.5);
+    box-shadow: -50px 0 0 white;
+  }
+
+  #FindGofer {
+    position: relative;
+    left: 3%;
+    width: 15%;
+  }
+
+  #Loca {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  #Loca:hover {
+    text-decoration: underline;
+  }
+
+
+  #Serve {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  #Serve:hover {
+    text-decoration: underline;
+  }
+
+  #SignUpBut {
+    white-space: nowrap;
+    cursor: pointer;
+    width: 90px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #062963;
+    background: #06265F;
+  }
+
+
+  #SignUpBut:hover {
+    color: #06265F;
+    background: white;
+  }
+
+
+
+  #SignInBut {
+    white-space: nowrap;
+    cursor: pointer;
+    width: 90px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #062963;
+    background: #06265F;
+  }
+
+  #SignInBut:hover {
+    color: #06265F;
+    background: white;
+  }
+
+  #TopBarSec2 {
+    position: relative;
+    right: 3%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 25px;
+  }
+
+  #Loca2 {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  #Loca2:hover {
+    text-decoration: underline;
+  }
+
+
+  #Serve2 {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  #Serve2:hover {
+    text-decoration: underline;
+  }
+
+  #Account {
+    white-space: nowrap;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  #Account:hover {
+    text-decoration: underline;
+  }
+
+  #Frames {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+  }
+
+  #Frame1 {
+    background: url('./images/two-young-professional-cleaners-uniform-working-together-kitchen-caucasian-men-using-steam-cleaner-happy-afro-american-173029776\ 1.png') 0 0 no-repeat rgba(0, 0, 0, 0.50);
+    background-size: cover;
+    height: 640px;
+    width: 100%;
+  }
+
+  #Frame1Modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.651);
+    height: 640px;
+    width: 100%;
+  }
+
+  #Frame1ModalCont {
+    width: 600px;
+    height: 280px;
+    border-radius: 40px;
+    border: 5px solid #062963;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  #Frame1MainText {
+    display: flex;
+    justify-content: center;
+    color: #062963;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  #Frame1Form {
+    display: flex;
+    align-items: center;
+  }
+
+  #Frame1Input {
+    color: #06265F;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    left: 5%;
+    border-radius: 12px;
+    border: 2px solid #062963;
+    background: url('./images/SearchFrame.png') 25px 10px no-repeat rgba(217, 217, 217, 0.00);
+    height: 20px;
+    width: 46%;
+    padding: 15px;
+    padding-left: 80px;
+  }
+
+  #Frame1Input:hover {
+    border: 2px solid #062a634f;
+  }
+
+
+  #Frame1Form ::placeholder {
+    color: #06265F;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  #GetHelpBut {
+    cursor: pointer;
+    position: relative;
+    left: 8%;
+    width: 20%;
+    text-align: center;
+    color: #fff;
+    padding: 17px;
+    border-radius: 10px;
+    background: #06265F;
+    border: 2px solid #06265F;
+  }
+
+  #GetHelpBut:hover {
+    color: #06265F;
+    background: white;
+  }
+
+  #Frame1More {
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+  }
+
+  #F1More1 {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 19%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+  #F1More1:hover {
+    color: white;
+    background: #06265F;
+  }
+
+
+  #F1More2 {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 17%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+  #F1More2:hover {
+    color: white;
+    background: #06265F;
+  }
+
+  #F1More3 {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 17%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+  #F1More3:hover {
+    color: white;
+    background: #06265F;
+  }
+
+
+  #F1More4 {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 17%;
+    padding: 10px;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+  #Frame2 {
+    height: 750px;
+    width: 100%;
+  }
+
+  #Frame2MainText {
+    position: relative;
+    left: 3%;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #Frame2Cards {
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    justify-content: center;
+    position: relative;
+  }
+
+  #F2Card1 {
+    cursor: pointer;
+    width: 325px;
+    height: 300px;
+    border-radius: 10px;
+    background: #FFF url('./images/istockphoto-1005938982-612x612\ 1.png') 0 0 no-repeat;
+    background-size: contain;
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.25), 7px -2px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  #F2Card1:hover {
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.712), 7px -2px 4px 0px rgba(0, 0, 0, 0.712);
+  }
+
+  #F2Card2 {
+    cursor: pointer;
+    width: 325px;
+    height: 300px;
+    border-radius: 10px;
+    background: #FFF url('./images/TV\ Mounting\ 23-636308-edited\ 1.png') 0 0 no-repeat;
+    background-size: contain;
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.25), 7px -2px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  #F2Card2:hover {
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.712), 7px -2px 4px 0px rgba(0, 0, 0, 0.712);
+  }
+
+
+  #F2Card3 {
+    cursor: pointer;
+    width: 325px;
+    height: 300px;
+    border-radius: 10px;
+    background: #FFF url('./images/Cleaner-wiping-down-baseboards-during-home-cleaning-service\ 1.png') 0 0 no-repeat;
+    background-size: contain;
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.25), 7px -2px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+
+
+  #F2Card3:hover {
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.712), 7px -2px 4px 0px rgba(0, 0, 0, 0.712);
+  }
+
+
+  #F2Card4 {
+    cursor: pointer;
+    width: 325px;
+    height: 300px;
+    border-radius: 10px;
+    background: #FFF url('./images/service_other_handyman_service\ 1.png') 0 0 no-repeat;
+    background-size: contain;
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.25), 7px -2px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+
+  #F2Card4:hover {
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.712), 7px -2px 4px 0px rgba(0, 0, 0, 0.712);
+  }
+
+
+
+  #F2Card5 {
+    cursor: pointer;
+    width: 325px;
+    height: 300px;
+    border-radius: 10px;
+    background: #FFF url('./images/hanging_img-7ef860782e6ceac45cba539ce96088fdfcd229a340905f2f45c5f66518d7f4f3\ 1.png') 0 0 no-repeat;
+    background-size: contain;
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.25), 7px -2px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+
+  #F2Card5:hover {
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.712), 7px -2px 4px 0px rgba(0, 0, 0, 0.712);
+  }
+
+
+  #F2Card6 {
+    cursor: pointer;
+    width: 325px;
+    height: 300px;
+    border-radius: 10px;
+    background: #FFF url('./images/service_other_plumbing\ 1.png') 0 0 no-repeat;
+    background-size: contain;
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.25), 7px -2px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  #F2Card6:hover {
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.712), 7px -2px 4px 0px rgba(0, 0, 0, 0.712);
+  }
+
+
+  #F2Card1Text {
+    position: relative;
+    top: 220px;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+  }
+
+  #F2Card1Text2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 220px;
+    font-size: small;
+    font-weight: 600;
+  }
+
+  #TagImg {
+    position: relative;
+    right: 5%;
+    width: 5%;
+  }
+
+  #NairaImg {
+    width: 25%;
+  }
+
+  #Frame3 {
+    width: 100%;
+    height: 500px;
+    background: url('./images/tasker1-desktop\ 1.png') 100% 0 no-repeat #D5C8B8;
+    background-size: contain;
+  }
+
+  #Frame3Cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 38%;
+    height: 500px;
+    text-align: left;
+    padding-left: 5px;
+  }
+
+  #F3Text1 {
+    font-weight: bold;
+    font-size: large;
+  }
+
+  #F3Text2 {
+    max-width: 45ch;
+  }
+
+  #F3Text3 {
+    max-width: 45ch;
+  }
+
+  #F3Text4 {
+    max-width: 45ch;
+  }
+
+  #F3Text5 {
+    max-width: 45ch;
+  }
+
+  #CheckImg {
+    position: relative;
+    right: 6%;
+    width: 3.5%;
+  }
+
+  #Frame4 {
+    width: 100%;
+    height: 600px;
+    background: #06265F;
+  }
+
+  #F4Cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    column-gap: 20px;
+  }
+
+  #F4Text1 {
+    color: #FFFCFC;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  #F4Text2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  #F4Text2a {
+    width: 40%;
+  }
+
+  #F4Text2b {
+    color: #FFF;
+    font-size: small;
+    font-weight: 500;
+    max-width: 25ch;
+  }
+
+  #F4Text2c {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: small;
+    white-space: nowrap;
+    text-align: center;
+    color: #06265F;
+    width: 90px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: #FFF;
+  }
+
+  #F4Text2c:hover {
+    color: white;
+    border: 2px solid white;
+    background: #06265F;
+  }
+
+  #F4Text4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  #F4Text4a {
+    width: 40%;
+  }
+
+  #F4Text4b {
+    color: #FFF;
+    font-size: small;
+    font-weight: 500;
+    max-width: 25ch;
+  }
+
+  #F4Text4c {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: small;
+    white-space: nowrap;
+    text-align: center;
+    color: #06265F;
+    width: 90px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: #FFF;
+  }
+
+  #F4Text4c:hover {
+    color: white;
+    border: 2px solid white;
+    background: #06265F;
+  }
+
+  #F4Divider {
+    background-color: #FFF;
+    transform: rotate(180deg);
+    height: 300px;
+  }
+
+  #Frame5 {
+    width: 100%;
+    height: 600px;
+  }
+
+  #Frame5MainText {
+    position: relative;
+    left: 3%;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #Frame5Form {
+    position: relative;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #Frame5Input {
+    color: #06265F;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 12px;
+    border: 2px solid #062963;
+    background: url('./images/LocationFrame.png') 25px 10px no-repeat rgba(217, 217, 217, 0.00);
+    height: 15px;
+    width: 20%;
+    padding: 15px;
+    padding-left: 80px;
+  }
+
+
+  #Frame5Input:hover {
+    border: 2px solid #062a6342;
+  }
+
+  #CheckAvail {
+    cursor: pointer;
+    position: relative;
+    left: 1%;
+    width: 10%;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: #06265F;
+  }
+
+
+
+  #CheckAvail:hover {
+    color: #06265F;
+    background: white;
+  }
+
+  #Frame5Form ::placeholder {
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+
+  #Frame5MainText2 {
+    position: relative;
+    top: 60px;
+    left: 3%;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #Frame5MoreMain {
+    position: relative;
+    top: 80px;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  #Frame5More {
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+  }
+
+  #F5More1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 12%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+  #F5More1:hover {
+    color: white;
+    background: #06265F;
+  }
+
+  #F5More2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 12%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+  #F5More2:hover {
+    color: white;
+    background: #06265F;
+  }
+
+  #F5More3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+  #F5More3:hover {
+    color: white;
+    background: #06265F;
+  }
+
+
+  #F5More4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 17%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+  #F5More4:hover {
+    color: white;
+    background: #06265F;
+  }
+
+  #F5More5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+  #F5More5:hover {
+    color: white;
+    background: #06265F;
+  }
+
+  #F5More6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 17%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+
+  #F5More6:hover {
+    color: white;
+    background: #06265F;
+  }
+
+  #F5More7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 12%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+
+  #F5More7:hover {
+    color: white;
+    background: #06265F;
+  }
+
+
+  #F5More8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 17%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+
+  #F5More8:hover {
+    color: white;
+    background: #06265F;
+  }
+
+  #F5More9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 12%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+
+  #F5More9:hover {
+    color: white;
+    background: #06265F;
+  }
+
+
+
+
+  #F5More10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+
+  #F5More10:hover {
+    color: white;
+    background: #06265F;
+  }
+
+  #F5More11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 12%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+
+
+  #F5More11:hover {
+    color: white;
+    background: #06265F;
+  }
+
+
+  #F5More12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #06265F;
+    width: 12%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: rgba(217, 217, 217, 0.00);
+  }
+
+
+
+  #F5More12:hover {
+    color: white;
+    background: #06265F;
+  }
+
+
+  #Frame6 {
+    font-family: 'Josefin Sans', sans-serif;
+    background: #F8F9FD;
+    width: 100%;
+    height: 530px;
+  }
+
+  #Frame6Cont {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  #FollowUs {
+    position: relative;
+    left: 60%;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    column-gap: 5%;
+    cursor: pointer;
+    color: #FFF;
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #06265F;
+    background: #062963;
+  }
+
+
+  #FollowUs:hover {
+    box-shadow: 0 0 10px black;
+  }
+
+  #FollowUsImg {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+  }
+
+  #Frame6Divider {
+    position: relative;
+    top: 60px;
+    border: 0px solid #FFF;
+    background-color: #FFF;
+    width: 100%;
+    height: 5px;
+  }
+
+  #F6MainCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 120px;
+    width: 100%;
+    height: 400px;
+  }
+
+  #F6Cont2Header {
+    font-weight: lighter;
+    font-size: 40px;
+  }
+
+  #F6ContBody {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  #Frame6Cont3 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #F6Cont2Header2 {
+    white-space: nowrap;
+    font-weight: lighter;
+    font-size: 20px;
+  }
+
+  #F6ContBody2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .SocialIcon {
+    cursor: pointer;
+    width: 20%;
+  }
+
+  #F6FinalMainCont {
+    position: relative;
+    left: 3%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #F6FinalCont1 {
+    display: flex;
+    column-gap: 20px;
+    white-space: nowrap;
+  }
+
+  #F6FinalCont2 {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 25px;
+  }
+
+  #FinalF6BoldText {
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width:1049px) {
+  #Frame2Cards {
+    row-gap: 30px;
+  }
+
+
+  #Frame3 {
+    position: relative;
+    top: 280px;
+  }
+
+  #Frame4 {
+    position: relative;
+    top: 280px;
+  }
+
+  #Frame5 {
+    position: relative;
+    top: 280px;
+  }
+
+  #Frame6 {
+    position: relative;
+    top: 280px;
+  }
+
+  #F6FinalMainCont {
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  #F6FinalCont2 {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width:970px) {
+  #Frame3 {
+    background-size: cover;
+  }
+
+  #Frame3Overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  #Frame3Cont {
+    width: 100%;
+    padding-left: 0px;
+    color: #FFF;
+  }
+
+  #CheckImg {
+    background-color: white;
+    border-radius: 2px;
+  }
+}
+
+
+
+@media only screen and (max-width:694px) {
+  #Frame1ModalCont {
+    width: 100%;
+  }
+
+  #Frame5Form {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  #Frame5MoreMain {
+    left: 0%;
+  }
+
+  #Frame5Input {
+    width: 50%;
+  }
+
+  #CheckAvail {
+    left: 0%;
+    width: 40%;
+  }
+
+  #Frame3 {
+    top: 1280px;
+  }
+
+  #Frame4 {
+    top: 1280px;
+  }
+
+  #Frame5 {
+    top: 1280px;
+  }
+
+  #Frame6 {
+    top: 1280px;
+  }
+}
+
+
+@media only screen and (max-width:608px) {
+  #RightTopFix {
+    display: none;
+  }
+
+  #TopBarSec2 {
+    display: none;
+  }
+
+
+  .TopSideBarIcon {
+    display: block;
+  }
+
+  #Loca2 {
+    color: white;
+  }
+
+  #Serve2 {
+    color: white;
+  }
+
+  #Account {
+    color: white;
+  }
+
+
+  #Loca {
+    color: white;
+  }
+
+  #Serve {
+    color: white;
+  }
+
+
+  #F4Cont {
+    column-gap: 0px;
+  }
+
+  #Frame1Modal {
+    flex-wrap: wrap;
+  }
+
+  #Frame1Form {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  #Frame1ModalCont {
+    width: 100%;
+    height: 350px;
+  }
+
+  #Frame1Input {
+    width: 70%;
+    left: 0;
+  }
+
+  #GetHelpBut {
+    left: 0%;
+    width: 35%;
+  }
+
+
+  #Frame5More {
+    flex-wrap: wrap;
+  }
+
+  #FollowUs {
+    left: 40%;
+    width: 30%;
+  }
+
+  #FindGofer {
+    width: 130px;
+  }
+
+  #Frame6 {
+    height: 670px;
+  }
+
+  #Frame6Divider {
+    top: 30px;
+  }
+
+  #F6FinalMainCont {
+    top: 100px;
+  }
+
+}
+
+
+@media only screen and (max-width:500px) {
+  #ModalCont {
+    width: 90%;
+  }
+
+  #ModalCont2 {
+    width: 90%;
+  }
+
+  /* #SideBar {
+    height: 50px;
+  }
+
+  .SideBarIcon2 {
+    top: 0px;
+  }
+
+  #SideBarDivider {
+    display: none;
+  }
+
+  .SideBarIcon {
+    display: none;
+  } */
+
+  #F5More1 {
+    width: 70px;
+  }
+
+  #F5More2 {
+    width: 70px;
+  }
+
+  #F5More3 {
+    width: 70px;
+  }
+
+
+  #F5More4 {
+    width: 70px;
+  }
+
+  #F5More5 {
+    width: 70px;
+  }
+
+  #F5More6 {
+    width: 70px;
+  }
+
+  #F5More7 {
+    width: 70px;
+  }
+
+
+  #F5More8 {
+    width: 70px;
+  }
+
+  #F5More9 {
+    width: 70px;
+  }
+
+
+  #F5More10 {
+    width: 70px;
+  }
+
+  #F5More11 {
+    width: 70px;
+  }
+
+
+  #F5More12 {
+    width: 70px;
+  }
+}
+
+
+@media only screen and (max-width:475px) {
+  #Frame6 {
+    top: 1400px;
+  }
+
+  #FollowUs {
+    width: 40%;
+    left: 20%;
+  }
+
+  #F6Cont2Header2 {
+    white-space: normal;
+  }
+
+  .SocialIcon {
+    cursor: pointer;
+    width: 40%;
+  }
+
+  #FinalF6BoldText2 {
+    white-space: normal;
+  }
+
+  .TopSideBarIcon {
+    width: 25%;
+  }
+
+  .TopSideBarIcon2 {
+    width: 8%;
+  }
+}
+
+@media only screen and (max-width:420px) {
+  #LostPSWText {
+    left: 27%;
+  }
+
+
+  #Frame6 {
+    top: 1580px;
+    height: 680px;
+  }
+
+  #F6FinalMainCont {
+    top: 100px;
+  }
+}
+
+@media only screen and (max-width:371px) {
+  #Frame6 {
+    height: 900px;
+  }
+
+  #F6FinalMainCont {
+    top: 300px;
+  }
+}
+
+
+@media only screen and (max-width:351px) {
+  #Frame1ModalCont {
+    height: 350px;
+  }
+
+  #Frame6 {
+    height: 1150px;
+  }
+
+  #F6FinalMainCont {
+    top: 550px;
+  }
+}
